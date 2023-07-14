@@ -1,19 +1,39 @@
 fileFormatVersion: 2
 guid: 480d2939d2c3e724f95de569458f9666
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: wizard death_0
-    21300002: wizard death_1
-    21300004: wizard death_2
-    21300006: wizard death_3
-    21300008: wizard death_4
-    21300010: wizard death_5
-    21300012: wizard death_6
-    21300014: wizard death_7
-    21300016: wizard death_8
-    21300018: wizard death_9
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: wizard death_0
+  - first:
+      213: 21300002
+    second: wizard death_1
+  - first:
+      213: 21300004
+    second: wizard death_2
+  - first:
+      213: 21300006
+    second: wizard death_3
+  - first:
+      213: 21300008
+    second: wizard death_4
+  - first:
+      213: 21300010
+    second: wizard death_5
+  - first:
+      213: 21300012
+    second: wizard death_6
+  - first:
+      213: 21300014
+    second: wizard death_7
+  - first:
+      213: 21300016
+    second: wizard death_8
+  - first:
+      213: 21300018
+    second: wizard death_9
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -30,9 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -42,8 +65,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -64,11 +87,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -78,8 +107,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -89,7 +120,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -109,6 +168,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2490f9e6b1a3d69409a34b56c8ad8bc2
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -129,6 +189,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dd889ed013a53ac4cb07497fd2aa561f
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -149,6 +210,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 055751e7e41571c4b92f3e47d52024ac
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -169,6 +231,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 42c5721fb2463754381b7ffc800b7f8a
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -189,6 +252,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2fc7144879d69634788378924815bf60
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -209,6 +273,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: eeeaf915e50b740468b553a6964f1e69
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -229,6 +294,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9d6c67397efc2214e890fe18c0680cf6
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -249,6 +315,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: de300ed943acb994c9c171c08ce08b5a
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -269,6 +336,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 30af901ee5b876e4a8f9f77c9286c483
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -289,6 +357,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b714b264e267c6642ada894e41cee07b
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -297,13 +366,25 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 31ec708ca3701b048ad46cc7fd5abb54
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      wizard death_0: 21300000
+      wizard death_1: 21300002
+      wizard death_2: 21300004
+      wizard death_3: 21300006
+      wizard death_4: 21300008
+      wizard death_5: 21300010
+      wizard death_6: 21300012
+      wizard death_7: 21300014
+      wizard death_8: 21300016
+      wizard death_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
